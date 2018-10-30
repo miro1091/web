@@ -11,11 +11,9 @@ const FooterUpdateStatus = (props) => {
                 <a href="">Update Available</a>
             </div>
         );
-
     }else{
-        return '';
+        return null;
     }
-    
 }
 
 export default translate(["common", "footer"])(FooterUpdateStatus);
