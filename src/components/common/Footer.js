@@ -25,7 +25,6 @@ const Footer = props => {
           </a>
         </strong> {t("if you found this useful")}
       </div>
-      {/* <FooterUpdateStatus {...props} /> */}
       <FooterVersion t={t} updates={false} />
     </footer>
   );
