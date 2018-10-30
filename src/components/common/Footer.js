@@ -10,7 +10,7 @@
 
 import React from 'react';
 import { translate } from "react-i18next";
-import FooterVersion from './FooterVersion';
+import FooterUpdateStatus from './FooterUpdateStatus';
 
 const Footer = props => {
   const { t } = props;
@@ -25,7 +25,7 @@ const Footer = props => {
           </a>
         </strong> {t("if you found this useful")}
       </div>
-      <FooterVersion t={t} updates={false} />
+      <FooterUpdateStatus />
     </footer>
   );
 };
