@@ -27,10 +27,10 @@ const Footer = props => {
         {t("if you found this useful")}
       </div>
       <div className="ml-auto">
-        <b className="hidden-xs-down">{t("Core Version")}: </b>
+        {/* <b className="hidden-xs-down">{t("Core Version")}: </b>
         <b className="hidden-sm-up">C: </b> <span id="piholeVersion">vDev</span>
         <b className="hidden-xs-down">, {t("Web Version")}: </b>
-        <b className="hidden-sm-up">, W: </b> <span id="webVersion">vDev</span>
+        <b className="hidden-sm-up">, W: </b> <span id="webVersion">vDev</span> */}
       </div>
     </footer>
   );
